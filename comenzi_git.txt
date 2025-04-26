@@ -51,3 +51,10 @@ git push origin
 #pentru a lua codul de pe server
 git pull
 git pull origin
+
+##pentru lucrul cu branch uri
+#listarea tuturor branch urilor
+git branch
+
+#redenumirea branch ului curent in ce este dupa -m
+git branch -m main
