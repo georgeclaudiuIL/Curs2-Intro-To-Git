@@ -11,6 +11,9 @@ git config --global user.email "Emailul@tau.com"
 #Citirea emailului global
 git config --global user.email
 
+#Deschiderea editorului Visual Studio Code ca editor default pentru git
+git config --global core.editor "code --wait"
+
 #initializeaza proiectul de git local - creeaza un folder .git ascuns 
 git init
 
