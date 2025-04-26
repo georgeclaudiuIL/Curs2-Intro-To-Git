@@ -43,3 +43,11 @@ git commit -am " Acesta este un mesaj descriptiv al commit ului "
 
 #Modificarea mesajului ultimului commit 
 git commit --amend
+
+#pentru a pune codul pe server
+git push
+git push origin
+
+#pentru a lua codul de pe server
+git pull
+git pull origin
