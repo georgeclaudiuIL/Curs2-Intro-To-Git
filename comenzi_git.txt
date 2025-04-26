@@ -5,3 +5,16 @@ git init
 #descarca de pe server un proiect de git 
 git clone https://github.com/georgeclaudiuIL/Curs2-Intro-To-Git.git
 
+#imi arata lista de commit uri
+git log
+git log --oneline
+
+#imi arata statusul fisierelor
+git status
+git status -s
+
+##comenzi de creare a commit-ului
+git add filename
+git add .
+git add filename.*
+git add filename1 filename2 filename3
