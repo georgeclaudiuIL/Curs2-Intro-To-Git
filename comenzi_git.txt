@@ -1,4 +1,16 @@
 
+#Setarea username ului  global
+git config --global user.name "Numele tau"
+
+#Citirea username ului  global
+git config --global user.name
+
+#Setarea emailului global
+git config --global user.email "Emailul@tau.com"
+
+#Citirea emailului global
+git config --global user.email
+
 #initializeaza proiectul de git local - creeaza un folder .git ascuns 
 git init
 
